@@ -30,7 +30,8 @@ void print_list(struct cell *l){
     if(l!=NULL){
         printf("%s ", l->anahtar);
         print_list(l->next);
-    }   
+    }
+    
 }
 void print_hash_table(struct hash_tablosu *hash_table){
     if(hash_table){
